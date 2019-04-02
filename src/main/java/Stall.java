@@ -20,6 +20,10 @@ public abstract class Stall implements IReviewed {
         return this.rating;
     }
 
+    public void setRating(int newRating) {
+        this.rating = newRating;
+    }
+
     public void setName(String name) {
         this.name = name;
     }

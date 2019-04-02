@@ -64,5 +64,11 @@ public class TobaccoStallTest {
         assertEquals(0, tobaccoStall1.getRating());
     }
 
+    @Test
+    public void canChangeRating() {
+        tobaccoStall1.setRating(4);
+        assertEquals(4, tobaccoStall1.getRating());
+    }
+
 
 }

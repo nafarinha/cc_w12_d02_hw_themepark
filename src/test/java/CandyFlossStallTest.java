@@ -49,4 +49,10 @@ public class CandyFlossStallTest {
     public void canGetRating() {
         assertEquals(0, candyFlossStall1.getRating());
     }
+
+    @Test
+    public void canChangeRating() {
+        candyFlossStall1.setRating(5);
+        assertEquals(5, candyFlossStall1.getRating());
+    }
 }

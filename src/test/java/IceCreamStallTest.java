@@ -49,4 +49,10 @@ public class IceCreamStallTest {
     public void canGetRating() {
         assertEquals(0, iceCreamStall1.getRating());
     }
+
+    @Test
+    public void canChangeRating() {
+        iceCreamStall1.setRating(4);
+        assertEquals(4, iceCreamStall1.getRating());
+    }
 }
