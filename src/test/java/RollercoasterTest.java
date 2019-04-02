@@ -45,4 +45,17 @@ public class RollercoasterTest {
         rollercoaster1.setRating(4);
         assertEquals(4, rollercoaster1.getRating());
     }
+
+    @Test
+    public void canGetVisitors() {
+        assertEquals(0, rollercoaster1.getVisitors().size());
+    }
+
+    @Test
+    public void canAddVisitor() {
+        Visitor visitor = new Visitor(20, 190, 12.00);
+        rollercoaster1.addVisitor(visitor);
+        assertEquals(1, rollercoaster1.getVisitors().size());
+
+    }
 }

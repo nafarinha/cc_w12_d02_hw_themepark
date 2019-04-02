@@ -41,4 +41,17 @@ public class PlaygroundTest {
         playground1.setRating(4);
         assertEquals(4, playground1.getRating());
     }
+
+    @Test
+    public void canGetVisitors() {
+        assertEquals(0, playground1.getVisitors().size());
+    }
+
+    @Test
+    public void canAddVisitor() {
+        Visitor visitor = new Visitor(20, 190, 12.00);
+        playground1.addVisitor(visitor);
+        assertEquals(1, playground1.getVisitors().size());
+
+    }
 }

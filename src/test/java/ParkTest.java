@@ -28,4 +28,17 @@ public class ParkTest {
         assertEquals(4, park1.getRating());
     }
 
+    @Test
+    public void canGetVisitors() {
+        assertEquals(0, park1.getVisitors().size());
+    }
+
+    @Test
+    public void canAddVisitor() {
+        Visitor visitor = new Visitor(20, 190, 12.00);
+        park1.addVisitor(visitor);
+        assertEquals(1, park1.getVisitors().size());
+
+    }
+
 }

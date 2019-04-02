@@ -29,8 +29,8 @@ public abstract class Attraction implements IReviewed {
         return visitors;
     }
 
-    public void addVisitor(ArrayList<Visitor> newVisitor) {
-        this.visitors = newVisitor;
+    public void addVisitor(Visitor newVisitor) {
+        this.visitors.add(newVisitor);
     }
 
 
