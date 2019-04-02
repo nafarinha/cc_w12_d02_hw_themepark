@@ -42,8 +42,12 @@ public class ThemeParkTest {
         assertEquals(7, themePark1.getAllReviewed().size());
     }
 
- /*   @Test
+    @Test
     public void canAddFeature() {
+        Playground playground = new Playground("Sugar Land");
+        themePark1.addFeature(playground);
 
-    }*/
+        assertEquals(8, themePark1.getAllReviewed().size());
+
+    }
 }

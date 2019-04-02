@@ -45,7 +45,7 @@ Introduce some Interfaces to enable charging, restricting and reviewing attracti
 
 ### Classes and Abstract Classes
 
-1. `ThemePark` stores all `Attractions` and `Stalls` in it.
+1. `ThemePark` stores all `Attractions` and `Stalls` in it. :white_check_mark:
 2. `ThemePark` has a method `visit(Visitor, Attraction)`
 
 ### Interfaces
