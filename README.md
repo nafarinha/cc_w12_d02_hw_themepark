@@ -17,7 +17,7 @@ Model a ThemePark (with various Attraction and Stalls) and its Visitors.
 
 Remember to model class diagrams first, then write tests, then write code.
 
-1. `Visitor` has age, height, money
+1. `Visitor` has age, height, money :white_check_mark:
 2. Using an `Attraction` abstract class (which has a `name`), create some subclasses for `Rollercoaster`, `Dodgems`, `Park`, `Playground`
 3. Using a `Stall` abstract class (which has a `name`, `ownerName` and `parkingSpot`), create some classes for `IceCreamStall`, `CandyFlossStallTest`, `TobaccoStall`
 
