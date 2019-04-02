@@ -48,6 +48,11 @@ public class ThemeParkTest {
         themePark1.addFeature(playground);
 
         assertEquals(8, themePark1.getAllReviewed().size());
-
     }
+
+/*    @Test
+    public void canVisitAttraction() {
+        Visitor visitor = new Visitor(20, 190, 12.00);
+        themePark1.visit(visitor, "Rollercoaster");
+    }*/
 }

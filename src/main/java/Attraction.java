@@ -1,12 +1,16 @@
+import java.util.ArrayList;
+
 public abstract class Attraction implements IReviewed {
 
     private String name;
     private int rating;
+    private ArrayList<Visitor> visitors;
 
 
     public Attraction(String name) {
         this.name = name;
         this.rating = 0;
+        this.visitors = new ArrayList<>();
     }
 
     public String getName() {
@@ -20,6 +24,16 @@ public abstract class Attraction implements IReviewed {
     public void setRating(int newRating) {
         this.rating = newRating;
     }
+
+    public ArrayList<Visitor> getVisitors() {
+        return visitors;
+    }
+
+    public void addVisitor(ArrayList<Visitor> newVisitor) {
+        this.visitors = newVisitor;
+    }
+
+
 
 
 }
