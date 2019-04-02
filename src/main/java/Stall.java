@@ -36,7 +36,4 @@ public abstract class Stall {
         this.parkingSpot = parkingSpot;
     }
 
-    public int getRating() {
-        return this.rating;
-    }
 }

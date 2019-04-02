@@ -1,18 +1,10 @@
-public abstract class Attraction {
+public abstract class Attraction implements IReviewed {
 
-    private String name;
-    private int rating;
+    protected String name;
+    protected int rating;
 
-    public Attraction(String name) {
+    public Attraction(String name, int rating) {
         this.name = name;
-        this.rating = 0;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public int getRating() {
-        return this.rating;
+        this.rating = rating;
     }
 }
