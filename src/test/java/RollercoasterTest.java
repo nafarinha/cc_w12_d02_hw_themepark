@@ -34,4 +34,9 @@ public class RollercoasterTest {
     public void canCheckVistorSecurity_IsAllowed() {
         assertTrue(rollercoaster1.isAllowedTo(visitor3));
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(0, rollercoaster1.getRating());
+    }
 }

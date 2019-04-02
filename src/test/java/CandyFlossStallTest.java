@@ -44,4 +44,9 @@ public class CandyFlossStallTest {
         candyFlossStall1.setParkingSpot(33);
         assertEquals(33, candyFlossStall1.getParkingSpot());
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(0, candyFlossStall1.getRating());
+    }
 }

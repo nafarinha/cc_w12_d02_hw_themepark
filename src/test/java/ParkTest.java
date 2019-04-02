@@ -17,4 +17,9 @@ public class ParkTest {
         assertEquals("Green Meadows", park1.getName());
     }
 
+    @Test
+    public void canGetRating() {
+        assertEquals(0, park1.getRating());
+    }
+
 }

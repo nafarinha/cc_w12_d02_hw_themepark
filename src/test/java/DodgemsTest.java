@@ -16,4 +16,9 @@ public class DodgemsTest {
     public void hasName() {
         assertEquals("Bumpy Drive", dodgems1.getName());
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(0, dodgems1.getRating());
+    }
 }

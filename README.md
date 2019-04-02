@@ -37,8 +37,8 @@ Introduce some Interfaces to enable charging, restricting and reviewing attracti
 
 ### Polymorphism
 
-1. All `Attraction`s and `Stall`s have a class variable `int rating`
-2. All `Attraction`s and `Stall`s implement `IReviewed` and implement a getter for `int getRating()` and `String getName()`
+1. All `Attraction`s and `Stall`s have a class variable `int rating` :white_check_mark:
+2. All `Attraction`s and `Stall`s implement `IReviewed` and implement a getter for `int getRating()` :white_check_mark: and `String getName()` :white_check_mark:
 3. `ThemePark` has a method `getAllReviewed()` which returns an ArrayList of `IReviewed`
 
 ## Extensions

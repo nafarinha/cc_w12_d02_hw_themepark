@@ -59,5 +59,10 @@ public class TobaccoStallTest {
         assertTrue(tobaccoStall1.isAllowedTo(visitor2));
     }
 
+    @Test
+    public void canGetRating() {
+        assertEquals(0, tobaccoStall1.getRating());
+    }
+
 
 }

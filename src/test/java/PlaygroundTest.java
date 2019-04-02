@@ -30,4 +30,9 @@ public class PlaygroundTest {
     public void canCheckVisitorAge_Allowed() {
         assertTrue(playground1.isAllowedTo(visitor2));
     }
+
+    @Test
+    public void canGetRating() {
+        assertEquals(0, playground1.getRating());
+    }
 }
