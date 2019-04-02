@@ -19,7 +19,7 @@ Remember to model class diagrams first, then write tests, then write code.
 
 1. `Visitor` has age, height, money :white_check_mark:
 2. Using an `Attraction` abstract class (which has a `name`) :white_check_mark:, create some subclasses for `Rollercoaster` :white_check_mark:, `Dodgems` :white_check_mark:, `Park`:white_check_mark:, `Playground`:white_check_mark:
-3. Using a `Stall` abstract class (which has a `name`, `ownerName` and `parkingSpot`), create some classes for `IceCreamStall`, `CandyFlossStallTest`, `TobaccoStall`
+3. Using a `Stall` abstract class (which has a `name`, `ownerName` and `parkingSpot`) :white_check_mark:, create some classes for `IceCreamStall` :white_check_mark:, `CandyFlossStallTest`, `TobaccoStall`
 
 ### Interfaces
 
