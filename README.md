@@ -31,7 +31,7 @@ Introduce some Interfaces to enable charging, restricting and reviewing attracti
 
    Have some of the classes implement these interfaces. Below are the rules about what the implementations should be:
 
-4. `Playground` implements `ISecurity` because it has a maximum age of 15
+4. `Playground` implements `ISecurity` because it has a maximum age of 15 :white_check_mark:
 5. `TobaccoStall` implements `ISecurity` because it has a minimum age of 18
 6. `Rollercoaster` implements `ISecurity` and requires a visitor to be over 145cm tall and over 12 years of age
 
