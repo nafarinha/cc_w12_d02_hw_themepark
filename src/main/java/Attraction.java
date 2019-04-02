@@ -1,7 +1,8 @@
 public abstract class Attraction implements IReviewed {
 
-    protected String name;
-    protected int rating;
+    private String name;
+    private int rating;
+
 
     public Attraction(String name) {
         this.name = name;
