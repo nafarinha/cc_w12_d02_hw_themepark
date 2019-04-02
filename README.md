@@ -25,9 +25,9 @@ Remember to model class diagrams first, then write tests, then write code.
 
 Introduce some Interfaces to enable charging, restricting and reviewing attractions and stalls:
 
-1. `ITicketed` promises `double defaultPrice()` and `double priceFor(Visitor)`
-2. `ISecurity` promises `boolean isAllowedTo(Visitor)`
-3. `IReviewed` promises `int getRating()` and `String getName()`
+1. `ITicketed` promises `double defaultPrice()` and `double priceFor(Visitor)`:white_check_mark:
+2. `ISecurity` promises `boolean isAllowedTo(Visitor)`:white_check_mark:
+3. `IReviewed` promises `int getRating()` and `String getName()` :white_check_mark:
 
    Have some of the classes implement these interfaces. Below are the rules about what the implementations should be:
 
