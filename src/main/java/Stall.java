@@ -1,4 +1,4 @@
-public abstract class Stall {
+public abstract class Stall implements IReviewed {
 
     private String name;
     private String ownerName;
@@ -14,6 +14,10 @@ public abstract class Stall {
 
     public String getName() {
         return name;
+    }
+
+    public int getRating() {
+        return this.rating;
     }
 
     public void setName(String name) {
