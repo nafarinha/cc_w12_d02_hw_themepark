@@ -21,4 +21,10 @@ public class DodgemsTest {
     public void canGetRating() {
         assertEquals(0, dodgems1.getRating());
     }
+
+    @Test
+    public void canChangeRating() {
+        dodgems1.setRating(4);
+        assertEquals(4, dodgems1.getRating());
+    }
 }

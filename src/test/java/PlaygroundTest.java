@@ -35,4 +35,10 @@ public class PlaygroundTest {
     public void canGetRating() {
         assertEquals(0, playground1.getRating());
     }
+
+    @Test
+    public void canChangeRating() {
+        playground1.setRating(4);
+        assertEquals(4, playground1.getRating());
+    }
 }

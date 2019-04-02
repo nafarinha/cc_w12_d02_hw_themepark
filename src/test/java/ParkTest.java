@@ -22,4 +22,10 @@ public class ParkTest {
         assertEquals(0, park1.getRating());
     }
 
+    @Test
+    public void canChangeRating() {
+        park1.setRating(4);
+        assertEquals(4, park1.getRating());
+    }
+
 }
