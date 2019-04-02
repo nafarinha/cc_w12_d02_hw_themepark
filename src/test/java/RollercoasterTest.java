@@ -16,7 +16,7 @@ public class RollercoasterTest {
         visitor2 = new Visitor(13, 144, 5.00);
         visitor3 = new Visitor(13, 150, 10.00);
 
-        rollercoaster1 = new Rollercoaster("Crazy Loops", 0);
+        rollercoaster1 = new Rollercoaster("Crazy Loops");
     }
 
     @Test
