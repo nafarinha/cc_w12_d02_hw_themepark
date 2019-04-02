@@ -33,7 +33,7 @@ Introduce some Interfaces to enable charging, restricting and reviewing attracti
 
 4. `Playground` implements `ISecurity` because it has a maximum age of 15
 5. `TobaccoStall` implements `ISecurity` because it has a minimum age of 18
-6. `Rollercoster` implements `ISecurity` and requires a visitor to be over 145cm tall and over 12 years of age
+6. `Rollercoaster` implements `ISecurity` and requires a visitor to be over 145cm tall and over 12 years of age
 
 ### Polymorphism
 
@@ -60,4 +60,4 @@ Introduce some Interfaces to enable charging, restricting and reviewing attracti
 ### Polymorphism
 
 1. `ThemePark` has a method `getAllAllowedFor(Visitor)` which takes a `Visitor` and returns an ArrayList of `IReviewed`
-2. `ThemePark` has a method that can return a string with all reviews, returning a String a little bit like this: `Rollercoster: 4, Dodgems: 8, Park: 2, IceCream: 6, TobaccoStall: 1`
+2. `ThemePark` has a method that can return a string with all reviews, returning a String a little bit like this: `Rollercoaster: 4, Dodgems: 8, Park: 2, IceCream: 6, TobaccoStall: 1`
